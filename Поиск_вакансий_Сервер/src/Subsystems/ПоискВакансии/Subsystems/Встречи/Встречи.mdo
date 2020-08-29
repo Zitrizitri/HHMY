@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86e997ce-4bbf-4a3c-b9c8-877a08ca6d79">
+  <name>Встречи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Встречи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ЗапланированныеВстречи</content>
+  <parentSubsystem>Subsystem.ПоискВакансии</parentSubsystem>
+</mdclass:Subsystem>

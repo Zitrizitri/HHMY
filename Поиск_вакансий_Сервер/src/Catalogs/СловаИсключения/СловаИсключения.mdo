@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbd31eae-d354-429d-95e2-3e5c28f59b31">
+  <producedTypes>
+    <objectType typeId="1aac5671-6bb6-4835-b3df-65677b9968c5" valueTypeId="9d25d433-d11b-4088-a78a-61740faca143"/>
+    <refType typeId="1c955988-5661-4a2b-a76b-530aa0b4ff16" valueTypeId="13fd58ae-78f8-453d-acd8-ded4abf6d96e"/>
+    <selectionType typeId="78aaad1c-5e18-4190-9115-f8958ba0b88a" valueTypeId="862325af-f0e8-4a3c-aecc-de1a9853da87"/>
+    <listType typeId="6d7201d7-d74c-4d5a-baef-305478e01f9b" valueTypeId="a0e46856-21bd-4bad-a52b-072ed77fa55a"/>
+    <managerType typeId="afd8c998-a520-4fb2-8ce9-94b839a0efc0" valueTypeId="e6e3d12f-4d41-4ac4-adda-fd2cc2dbce62"/>
+  </producedTypes>
+  <name>СловаИсключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Слова исключения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СловаИсключения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СловаИсключения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Специализации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

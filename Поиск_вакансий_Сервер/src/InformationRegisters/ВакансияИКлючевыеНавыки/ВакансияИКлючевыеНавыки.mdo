@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4a16b7e-ad25-4c37-8d05-b27d2fb40670">
+  <producedTypes>
+    <selectionType typeId="29845f46-9393-4451-aa05-82992d062f7d" valueTypeId="22b2fe01-10a7-4c45-a932-271d62ed9877"/>
+    <listType typeId="f32fb591-353c-4ff1-8dfe-8eb57128564d" valueTypeId="9e260917-9b84-4a54-956b-69e9508f5d3d"/>
+    <managerType typeId="fdfb9f46-5ed4-4c41-98cc-7ba9272a286e" valueTypeId="eb2da501-74b4-47ff-8cf4-b4e745182c81"/>
+    <recordSetType typeId="378cdde3-59cc-4a8a-bf51-cbcd4a2f34f8" valueTypeId="599ea299-be3c-41a8-b9c1-631637240ac6"/>
+    <recordKeyType typeId="c534ebae-baae-4e18-815f-d3eea52afa5f" valueTypeId="ea992483-0d62-4c3c-85b0-a9a5897d4019"/>
+    <recordType typeId="e9e5874d-82db-4036-8fe9-38f0326b662d" valueTypeId="27fbf8e3-a3e9-4e61-a566-39ba7e4cce00"/>
+    <recordManagerType typeId="7543f7bf-e1c1-4cce-bdb7-746b049e4caf" valueTypeId="e42d5ad1-367b-426c-814d-5fcf55c13efd"/>
+  </producedTypes>
+  <name>ВакансияИКлючевыеНавыки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вакансия и ключевые навыки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="f64c458b-186e-493c-a104-d499d23b6f20">
+    <name>Вакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Вакансии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="47cb5694-f188-4220-ae57-162355f0c9d3">
+    <name>КлючевойНавык</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевой навык</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючевыеНавыки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

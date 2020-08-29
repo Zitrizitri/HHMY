@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="351b910e-0359-443a-a049-f630a5bbd65a">
+  <producedTypes>
+    <selectionType typeId="0b880b17-f42b-4c03-ad11-53304c58b9b3" valueTypeId="5199d8b0-8717-4d18-b239-82ebbf94c74e"/>
+    <listType typeId="9ae77508-c7f8-4230-8cdd-7b1566602864" valueTypeId="ba799dae-dfee-415f-8390-559e4e001c36"/>
+    <managerType typeId="e7b71b91-829b-4f6a-a81f-99a33d648bbd" valueTypeId="b67ae372-f998-4e2f-be44-d1cf7c65c711"/>
+    <recordSetType typeId="231dcaa9-cbff-40a6-bc05-ee65cd81dadf" valueTypeId="f8264119-f64d-4926-917f-fcd6325019a6"/>
+    <recordKeyType typeId="cd072a76-3797-4d1f-8781-136e7116febb" valueTypeId="62fdc670-e24b-40a1-bda8-2b6a36bcee2a"/>
+    <recordType typeId="8fa0a555-6693-4fa1-9858-0c1cd5c09ee4" valueTypeId="026c0d50-de5b-49b5-82be-75d318cba16b"/>
+    <recordManagerType typeId="a25e60ef-dfe4-4c80-bb87-b674152da953" valueTypeId="fe5fa5a2-5186-4e10-87c7-5ff8ab7cff25"/>
+  </producedTypes>
+  <name>ВакансияИЯзыкиПрограммирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вакансия и языки программирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="f9039f4d-8bc5-4fe0-8838-82bc1a5b6cba">
+    <name>НаименованиеВакансии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование вакансии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="280cecac-2809-436c-bc9f-309f8e71a53d">
+    <name>Вакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Вакансии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5134ebfd-8be0-44cc-a26f-dbb6e2d88055">
+    <name>ЯзыкПрограммирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Язык программирования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЯзыкиПрограммирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad2a67a2-fe8c-4a5f-8642-4788fa94f923">
+  <producedTypes>
+    <objectType typeId="f6e089cb-4f50-4725-b88a-49b0cfcdc560" valueTypeId="149dc866-6d92-45e4-a50e-af7380cd3df0"/>
+    <managerType typeId="ab580439-e2a2-46e3-a55a-10feb619f4e0" valueTypeId="1cf8c5ab-259b-4ae0-8068-9fa288550f39"/>
+  </producedTypes>
+  <name>ТребуютсяСтажеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Требуются стажеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ТребуютсяСтажеры.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ТребуютсяСтажеры.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="69e07a03-4782-46f6-841a-7df7b46b5310">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6f0d9e0f-cede-4688-b024-18cd56d47872">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

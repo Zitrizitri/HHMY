@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35780c08-e1c4-435f-bed9-af7e1155cd0b">
+  <producedTypes>
+    <selectionType typeId="8d3709b6-ed0c-4269-94aa-3c0c69eff0da" valueTypeId="83411976-ef27-43f2-af8a-87244f0e241a"/>
+    <listType typeId="7a633df6-698e-463e-99d3-e8077ac75072" valueTypeId="af3fc8d8-9e96-47b9-9b77-b3f2bbfc06b2"/>
+    <managerType typeId="39aaeed6-bfdd-4a83-b2ba-4dc336b1ca9c" valueTypeId="428518db-899e-4a1b-b54b-e9d91b93abdb"/>
+  </producedTypes>
+  <name>ЖурналВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал вакансий</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ЖурналВакансий.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.Вакансии</registeredDocuments>
+  <columns uuid="d9a037f5-422a-443d-9f30-cb5ff6f115aa">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <references>Document.Вакансии.Attribute.ДатаОбновленияВакансии</references>
+  </columns>
+  <columns uuid="df770cc4-5b12-4086-9d7d-609dbe6499cc">
+    <name>Архив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив</value>
+    </synonym>
+    <references>Document.Вакансии.Attribute.ВАрхиве</references>
+  </columns>
+  <forms uuid="828ec835-5f97-49ec-ad1f-0aea27290b8e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

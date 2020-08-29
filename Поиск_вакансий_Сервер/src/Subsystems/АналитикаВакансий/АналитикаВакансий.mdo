@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09a9ba3b-4279-40e5-abef-f9d52c9c7815">
+  <name>АналитикаВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитика вакансий</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.АктуализацияСпискаВакансий</content>
+  <content>DocumentJournal.ЖурналВакансий</content>
+  <content>InformationRegister.ЧастотаОбновленияВакансий</content>
+  <content>InformationRegister.ЗначенияСвойствЯзыков</content>
+  <content>Catalog.СодержащиеВВакансииСферыСлова</content>
+  <content>InformationRegister.ВакансияИЯзыкиПрограммирования</content>
+  <content>InformationRegister.ВакансияИКлючевыеНавыки</content>
+  <content>InformationRegister.ВакансияИСтанцииМетро</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
+  <subsystems>Отчеты</subsystems>
+</mdclass:Subsystem>

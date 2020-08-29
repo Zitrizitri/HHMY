@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17422f75-33b4-4588-84b9-fd52277edf27">
+  <producedTypes>
+    <refType typeId="e5a9d5d9-a132-46f5-a754-0134e00a16af" valueTypeId="fd1d1b30-c77d-4f77-aa68-03dd5560fa54"/>
+    <listType typeId="f0bed365-cfaf-4d23-a022-b5eeb66fdf0a" valueTypeId="76e2c1a3-e16e-4768-a3d4-01b2be41e44c"/>
+    <managerType typeId="4f3c4596-6dbc-40f0-acfa-5c67ff4826b2" valueTypeId="973e6773-44e6-481d-9920-4902699f9575"/>
+  </producedTypes>
+  <name>ГрафикРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>График работы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5eddcb0f-06af-4d79-a90a-cdc089789b2f">
+    <name>УдаленнаяРабота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаленная работа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="603efb57-f26e-4ca3-a5e1-71806ea96348">
+    <name>ПолныйДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный день</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

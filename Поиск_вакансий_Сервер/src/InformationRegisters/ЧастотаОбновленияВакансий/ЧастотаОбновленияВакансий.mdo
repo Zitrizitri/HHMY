@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0edfa596-407f-4eba-a2f9-f14803bde9e8">
+  <producedTypes>
+    <selectionType typeId="1e2bb934-97a5-4527-bb91-1d449b981df3" valueTypeId="cf859198-fd66-4969-a070-97db0c16fac4"/>
+    <listType typeId="da60fbce-1e9c-4b25-8454-500335e48694" valueTypeId="dcee33b7-8ddc-45e3-9700-b993282a4f96"/>
+    <managerType typeId="6f731b3d-e5cf-4ad1-9e72-07877c677525" valueTypeId="68806232-0a13-4e1c-833e-3de6b0d6ac41"/>
+    <recordSetType typeId="b961818e-432e-4b97-b784-8916d9baf5aa" valueTypeId="aeda8ec7-4af1-4ce0-8955-f19a588f68e3"/>
+    <recordKeyType typeId="ff62678d-9a70-4c99-8b6c-6f5b0844d699" valueTypeId="9a6ea03f-6282-4dad-9d5a-e91762434a62"/>
+    <recordType typeId="52aa9f86-acd5-4352-9d92-ff6916523f68" valueTypeId="b3367c7b-5800-4be7-aaf6-51b4ead67426"/>
+    <recordManagerType typeId="bf7599e3-1673-46d9-804c-d8900a3373b1" valueTypeId="57dd735b-851c-4332-9f0f-796978e34de3"/>
+  </producedTypes>
+  <name>ЧастотаОбновленияВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Частота обновления вакансий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ЧастотаОбновленияВакансий.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c840664a-1362-402e-ba34-7bb458eb9cac">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="9a72f5a8-68bb-4b5a-9c71-ef813d639c08">
+    <name>ВторисноеОбновлениеИБолее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторисное обновление и более</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="e6ed6428-2f8d-4a02-af78-888a691641a0">
+    <name>Вакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Вакансии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8eca2451-8c7e-41ba-ba3c-b82b13ff40a3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9aa130a-724b-42ed-a16d-23c68e973082">
+  <producedTypes>
+    <selectionType typeId="86c0b8d7-08df-41b5-a435-f8d26e2daffe" valueTypeId="48814cb7-e2ae-4673-bf2a-75fcd61c8862"/>
+    <listType typeId="b5cbab2c-d6cd-439d-bd14-13b01e5462ed" valueTypeId="a9485750-4bba-477e-9ae0-ccb40cde6be1"/>
+    <managerType typeId="c32c28fe-4d0d-4609-83cc-5a41eb46de04" valueTypeId="0fe1b814-5338-4304-b7b5-c1d5f211380c"/>
+    <recordSetType typeId="fae054d0-2d3a-4d16-89dc-f4f113222dc0" valueTypeId="bb9fc6e6-5d35-433f-9ec2-a653b46b6ac3"/>
+    <recordKeyType typeId="e13ed9b4-d1c0-4e7d-8c07-12c03d7f0b17" valueTypeId="52aa87d1-9c6f-4b10-b228-77fe4df92611"/>
+    <recordType typeId="73da2fcb-e7bf-46a4-9878-38140bae671f" valueTypeId="7dfd7bcf-48a2-4c44-9c8c-ee05c5d062b3"/>
+    <recordManagerType typeId="902d373e-421e-4a8c-8d5f-9f67a2080c52" valueTypeId="405a6446-61f5-43aa-9554-f44b07244bb7"/>
+  </producedTypes>
+  <name>ВакансияИСтанцииМетро</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вакансия и станции метро</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="256fe31d-100b-4905-b365-928f2b23ef24">
+    <name>Вакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Вакансии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="00d8ccd7-7ec3-4ab3-b97a-78a1955500f9">
+    <name>Станция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Станция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтанцииМетро</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

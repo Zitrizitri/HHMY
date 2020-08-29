@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e3c4ac2-d127-4b10-89bc-2d836f5f7298">
+  <producedTypes>
+    <objectType typeId="f9479f7a-79bb-4694-a1a4-0df5ff6ad39f" valueTypeId="1b92706f-3ba5-4f21-86f3-08c16333d6bc"/>
+    <refType typeId="7ba540aa-afa9-439c-89e8-7cd5a426553a" valueTypeId="77a458b5-4c80-4f42-9384-ce48623fc8b3"/>
+    <selectionType typeId="e60f6fde-d9dc-4d61-a57e-9cd212b07fb2" valueTypeId="d3e53c5d-5173-4981-93cf-50bb608f6215"/>
+    <listType typeId="dd1a9d9c-e46c-438d-9c36-7f99b749faa7" valueTypeId="9418c25d-193b-444c-91c6-b4068b69c5be"/>
+    <managerType typeId="6931eeb8-0b19-4a85-96f7-54d64e4869c7" valueTypeId="37e4c19c-d7a8-4978-8196-a0aa1141d457"/>
+  </producedTypes>
+  <name>КлючевыеНавыки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключевые навыки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КлючевыеНавыки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КлючевыеНавыки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>25</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

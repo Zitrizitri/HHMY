@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a590acff-2de6-4bac-b18a-b6872ae666bb">
+  <producedTypes>
+    <objectType typeId="339e6559-38ac-4984-930b-ca0de28c0900" valueTypeId="9a3f6afd-e27b-4031-84b9-126ee2bbfef0"/>
+    <managerType typeId="14681118-7616-4d05-8c41-59e3ce61ddc7" valueTypeId="cb8d3e0d-2552-46f4-9fe2-f3f629bb8138"/>
+  </producedTypes>
+  <name>АктуализацияСпискаВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуализация списка вакансий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АктуализацияСпискаВакансий.Form.Форма</defaultForm>
+  <attributes uuid="4eff33e2-ff2b-4fe5-91ef-62622a19559c">
+    <name>Город</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Города</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c9e7ea3c-491b-46bd-a653-0cfb6ced5bad">
+    <name>ЯзыкПрограммирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Язык программирования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЯзыкиПрограммирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8337a8b0-e508-444e-9059-d4389765ae58">
+    <name>Специализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специализация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Специализации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="7ed77383-f091-4920-a592-96e77c0c9f48">
+    <producedTypes>
+      <objectType typeId="737291a8-8556-4ff6-88e6-b10a07a21349" valueTypeId="18a81283-dc40-42c1-b509-ec605191a6e7"/>
+      <rowType typeId="f5ef8172-7bc3-4599-bc10-9ae8f71ab227" valueTypeId="e20f3688-b332-4828-9dc1-511f3b513645"/>
+    </producedTypes>
+    <name>МассивСтанцииМетро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Массив станции метро</value>
+    </synonym>
+    <attributes uuid="bd6b3238-b158-48a9-a1ff-1267ef8cce84">
+      <name>НаименованиеСтанции</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование станции</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="eeb5f0ae-77e0-49bc-a2fb-b2cfd0def823">
+      <name>СсылкаСтанции</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка станции</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтанцииМетро</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c5597147-d2d6-4d97-b815-4b91a064dab6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

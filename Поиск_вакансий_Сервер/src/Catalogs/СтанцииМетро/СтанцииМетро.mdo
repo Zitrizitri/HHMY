@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ba4ecca-9c90-4f41-8318-8c0ff937d449">
+  <producedTypes>
+    <objectType typeId="6c1f63ef-3ca8-4dec-a18c-17edc574419f" valueTypeId="00f5833e-4021-4bcd-b20f-ec9fba74723c"/>
+    <refType typeId="d6b55db9-3fd3-431a-a475-52c00939cab8" valueTypeId="2f3886b8-0ba9-4e7a-bc1f-04e2fa4358d3"/>
+    <selectionType typeId="142a9703-c3e1-4fd6-a631-3d0c01324599" valueTypeId="155a3431-e050-4843-9032-08dd3b1d0eb9"/>
+    <listType typeId="62eb5417-dcfa-4f9c-a705-0d58c0b07373" valueTypeId="9c9eb140-57d7-4319-8cdb-1ebe3c5dd715"/>
+    <managerType typeId="24b44d9f-50fa-47de-878e-d198c2e1faca" valueTypeId="8623697c-00ae-4fda-b923-a465a1040cb4"/>
+  </producedTypes>
+  <name>СтанцииМетро</name>
+  <synonym>
+    <key>ru</key>
+    <value>Станции метро</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтанцииМетро.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтанцииМетро.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ЛинииМетро</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2c7b87e5-f2e4-45ee-830e-8fc6564b82ca">
+    <name>Цвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

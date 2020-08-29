@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6245c50c-7223-49d0-b932-f8be215b5263">
+  <producedTypes>
+    <refType typeId="f29ccea0-b3ef-4b51-9068-c61e0457fed0" valueTypeId="c4067f76-d328-4c09-8a87-3dad8c2e52a3"/>
+    <listType typeId="671f1caa-8a29-4238-a1f4-54cd2330e077" valueTypeId="4bee4fdf-bb22-4e67-ad4e-d8cefc68918b"/>
+    <managerType typeId="bb1f7aa4-3d39-4c90-abd7-a23f9cb89fd9" valueTypeId="ad2cca96-7ab1-4cf9-ab02-e31153f1bad4"/>
+  </producedTypes>
+  <name>СтатусОтклика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус отклика</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7c0d41f2-0f79-4a42-8ece-5707921502a7">
+    <name>НовоеПриглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новое приглашение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36b5314c-1399-40c7-91ee-bf8132a82637">
+    <name>Рассмотрение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассмотрение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="045b24dc-ad6b-4660-9668-d5921c8e9111">
+    <name>НазначеноСобеседование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначено собеседование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0327bf13-c4bd-4e5c-9f96-f14b94ffe1dc">
+    <name>ЖдуРезультатовСобеседования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жду результатов собеседования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4e287b6f-18c2-459c-9821-63e4f1ad63ca">
+    <name>Отклонил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонил</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="395e9431-2856-4432-96ac-6a91009714e1">
+    <name>ГотовыВзять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовы взять</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed10162a-aa22-4f21-934a-fef8a2c010db">
+    <name>НеГотовыВзять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не готовы взять</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

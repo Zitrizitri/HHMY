@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f3d8a29-bbfd-43df-a5d1-6662f8f042a7">
+  <producedTypes>
+    <objectType typeId="d428b896-2617-4a18-a84d-9e590608b959" valueTypeId="4241db04-f7c8-4519-a1b4-57e8b7cc5a45"/>
+    <refType typeId="ffef6bfb-2653-4384-83ec-6c02cbde2260" valueTypeId="673ad1e3-7082-4d6f-8094-27ee7da51fbc"/>
+    <selectionType typeId="eccc98e0-23a9-4722-863f-c4cb7343325d" valueTypeId="9980bbb7-7a86-4c27-a7c9-e93a0bd64338"/>
+    <listType typeId="4f76cdbb-5f73-4c85-bad0-24d6ad4358d5" valueTypeId="6929bad0-9c7d-4d39-b050-3784cfacdba7"/>
+    <managerType typeId="67244119-f58a-4088-9eb1-08f41cd77980" valueTypeId="aedeb028-884c-4469-a467-60aab8d924be"/>
+  </producedTypes>
+  <name>Города</name>
+  <synonym>
+    <key>ru</key>
+    <value>Города</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Города.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Города.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>60</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="77b75303-8ac3-4221-b92a-2569aa662150">
+      <name>Краснодар</name>
+      <description>Краснодар</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="83e24ee7-11dc-4449-b2ae-723339a64dde">
+      <name>Москва</name>
+      <description>Москва</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="899934e6-f9b0-4d48-9e54-cd1f1a784804">
+      <name>Рязань</name>
+      <description>Рязань</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="c763f51b-af94-42f8-baad-cb61da7a544e">
+      <name>Санкт_Петербург</name>
+      <description>Санкт- Петербург</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="30cb35e7-93f7-48e3-9c16-82bc19913af1">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор HH</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="53c7277e-1e79-4c55-bba2-5554dc1ab864">
+    <name>ИдентификаторSJ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИдентификаторSJ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb569a44-33d2-4767-8136-cdc35228d448">
+    <name>Обновлять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлять</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

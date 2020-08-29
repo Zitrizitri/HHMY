@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa087ac7-d38e-4734-907d-71f2ecd4f8e0">
+  <producedTypes>
+    <objectType typeId="c3b74ff2-8ca5-45d7-a955-4fa2241d30f8" valueTypeId="3ea5388e-b042-4e76-97a6-87896bddd5bc"/>
+    <refType typeId="a809e226-022b-4680-be12-1b17f6ccfbfc" valueTypeId="f482b57d-3452-4b1f-9285-de0fd043a2d6"/>
+    <selectionType typeId="dc3196df-e653-4f56-bebe-69a876365703" valueTypeId="9120630b-298c-497c-89fb-be205fbee96f"/>
+    <listType typeId="bd9ffb9d-adc1-44ce-a480-c934e2a9a03f" valueTypeId="8590a01e-b82c-414a-bf79-1a444087b9c9"/>
+    <managerType typeId="57b4a8d4-a5a0-41e4-98ef-e7006c3af275" valueTypeId="202d5540-8858-4c74-bacc-bf6622375324"/>
+  </producedTypes>
+  <name>Специализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специализации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Специализации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Специализации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>60</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="858bf10b-c12e-4b34-a8a0-00dd0725cc16">
+      <name>Курьер</name>
+      <description>Курьер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="1ce23037-3db7-49f3-a5d8-bd1670ff79c0">
+      <name>Парикмахер</name>
+      <description>Парикмахер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="513447fc-dc9b-498a-ada8-819620268e33">
+      <name>РазработкаПрограммногоОбеспечения</name>
+      <description>Разработка программного обеспечения</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

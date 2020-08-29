@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2602c3a4-4575-4b94-8dc3-43a96b9b6dda">
+  <producedTypes>
+    <selectionType typeId="b395b6cb-28af-4e02-b56f-e43224d49132" valueTypeId="beae2a5b-864d-404e-9ea0-f1b4d3bf8803"/>
+    <listType typeId="c26859c0-0aa4-4d6c-8fd9-83e3f70c5b26" valueTypeId="264ccc8c-7aba-4940-b9e4-0f7f068dbf5e"/>
+    <managerType typeId="5edae30a-df48-41b3-b8b1-4e4c781a0ecf" valueTypeId="6d04fa5a-a8b1-4078-82b0-c2cb8bdb5459"/>
+    <recordSetType typeId="a49ec047-3d62-4c60-936e-c89eba0ac2ae" valueTypeId="1b7a18f4-f24f-46ac-a508-11783aeb4c73"/>
+    <recordKeyType typeId="f4eee31b-d37d-4c0e-a391-2451e92b2809" valueTypeId="6b6bd53e-9fb9-488d-995c-0a9f875285d6"/>
+    <recordType typeId="2dd0e503-d20a-4b18-b7d4-60b3a663bad2" valueTypeId="1274b09c-246f-46b2-aa04-d9c04f9e88b0"/>
+    <recordManagerType typeId="bc8bed77-f715-4e2b-9fc4-865120e52b28" valueTypeId="4a04c6f4-84af-41ab-b0b4-c75c6f98a7af"/>
+  </producedTypes>
+  <name>ВакансияНомерКомпанияВакансии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вакансия номер компания вакансии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="ac1bf843-4be0-4c89-81e3-f0d9da2613fb">
+    <name>Работодатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работодатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Работодатели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="04336799-b5e9-4133-bdf0-f21fb4d743d7">
+    <name>СайтыВладельцы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сайты владельцы</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СайтыВладельцы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9d03917b-334a-4493-ac6a-d296cbfbd855">
+    <name>НомерHH</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер HH</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

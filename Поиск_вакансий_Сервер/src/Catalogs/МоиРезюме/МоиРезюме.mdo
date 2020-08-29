@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2df20cfa-9242-4e89-9459-20c3d06ca03c">
+  <producedTypes>
+    <objectType typeId="dcc41ae7-c40f-400d-8ac7-6203ab5cb658" valueTypeId="ca121141-0880-4005-bb9c-95bce0816262"/>
+    <refType typeId="a6601ace-1079-4dc4-b92d-afc22bda1527" valueTypeId="b2c354f6-200b-439e-9ed0-8c71dd11542e"/>
+    <selectionType typeId="a72c5499-9ddc-49a4-b546-68a24f89e76c" valueTypeId="6b51b3b7-2b51-47d0-af71-b0566709484c"/>
+    <listType typeId="253150be-a9fb-41ce-8a82-9d1e38d68c63" valueTypeId="2f0f70a2-9768-461e-b63e-4ef6dc51de87"/>
+    <managerType typeId="6a728da0-70fb-4d49-bd32-9e0cefb08608" valueTypeId="6701881c-0089-42b7-8c12-86ee5abae26a"/>
+  </producedTypes>
+  <name>МоиРезюме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мои резюме</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МоиРезюме.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МоиРезюме.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="92461b1a-2d2d-4649-8851-f44ee9cc883f">
+    <name>РезюмеСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резюме ссылка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9ad4935-4c57-450c-8d32-7495a99a38c1">
+    <name>Зарплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

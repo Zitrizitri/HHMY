@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b1aae02-ada6-41a5-8944-80af69c13974">
+  <producedTypes>
+    <selectionType typeId="66ea222c-a531-44b2-a0f7-43cf9fe1d49c" valueTypeId="79e3290f-d6c0-4517-a6b8-20c97e53cd15"/>
+    <listType typeId="4443e76a-789e-4d91-a112-8c733275eb50" valueTypeId="4101e9d5-c5bd-4d4b-8038-e676978afb04"/>
+    <managerType typeId="336b4385-df85-43c1-8f98-77fbb36f6a46" valueTypeId="ce83cafc-fcc5-4c84-a597-88ba23a7e548"/>
+  </producedTypes>
+  <name>ЖурналУдаленнойРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал удаленной работы</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ЖурналУдаленнойРаботы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.Вакансии</registeredDocuments>
+  <forms uuid="d56074d3-70bc-4802-ae41-83676de1ec86">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

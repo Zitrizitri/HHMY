@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea2bec97-d447-4e52-9a8f-4af0b4b187c0">
+  <producedTypes>
+    <objectType typeId="1b1caa60-f3c5-456b-b483-1d49062cc4c8" valueTypeId="cfb02545-4efa-4f33-8714-7006331ef369"/>
+    <refType typeId="f25e5fed-c303-4487-a415-b7f804e582d6" valueTypeId="0cfc1fff-c02c-4914-b128-cdf8c53a296e"/>
+    <selectionType typeId="ec96ef87-07cd-41f8-921d-05a0c0c11c88" valueTypeId="30e23165-2bc8-42f2-b3a3-76991457e385"/>
+    <listType typeId="e9e8eda0-9d5c-4cfa-8b6e-4c76a7edc605" valueTypeId="290accde-80ca-403d-8110-fe9eefd723ca"/>
+    <managerType typeId="afdc30e0-7527-472f-b821-d2b7c9b07a56" valueTypeId="01201cad-469e-450b-9c61-89f3859fe162"/>
+  </producedTypes>
+  <name>ЯзыкиПрограммирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Языки программирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЯзыкиПрограммирования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЯзыкиПрограммирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4b2b0d03-d701-49b2-b109-1da1fc309c81">
+      <name>ОдинЭс</name>
+      <description>1С</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="f87148a3-4f40-427a-a761-b969fead6d66">
+      <name>СиШарп</name>
+      <description>C#</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="e5f73e70-dab0-4ce1-a951-df45d20d45cd">
+      <name>СиПлюсПлюс</name>
+      <description>C++</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="6f2532cf-8636-4ffe-bca9-0bc19e479f22">
+      <name>DBA</name>
+      <description>DBA</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="c25f7b59-6b99-4b71-8d92-712a4b9f5981">
+      <name>Java</name>
+      <description>JAVA</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="780bfc94-e96c-480b-aec0-3d51091bbbdc">
+      <name>JavaScript</name>
+      <description>JavaScript</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="6ff106dd-27fd-4baa-be0f-bb9b82714eda">
+      <name>PHP</name>
+      <description>PHP</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="ebafa888-ecd9-4dd7-824f-9d9b2207b55b">
+      <name>Python</name>
+      <description>Python</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="624193bc-01aa-420f-9633-898262355b1d">
+      <name>SQL</name>
+      <description>SQL</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="269799c2-86ea-46b2-b541-0820d2b42085">
+      <name>Swift</name>
+      <description>Swift</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0b8d6464-c6f4-43c8-8fac-eeac34361e2a">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b4ab54dd-1172-431c-8a65-dc82a6ac5511">
+    <name>Обновлять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлять</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="8c11ab90-e71c-4e8f-bafc-4acc025cf368">
+    <producedTypes>
+      <objectType typeId="aedebb88-f121-4599-8ae3-a0c62215b281" valueTypeId="a7db7305-664f-42ab-a63c-5f0ad2801369"/>
+      <rowType typeId="a2bb286e-2dca-42b0-8f07-6c94c90daddd" valueTypeId="c5030317-7d67-4c60-a086-fa09ba137365"/>
+    </producedTypes>
+    <name>СловаВхождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слова вхождения</value>
+    </synonym>
+    <attributes uuid="ab938a08-0e3e-4d99-803b-3a367b59bd7f">
+      <name>Слово</name>
+      <synonym>
+        <key>ru</key>
+        <value>Слово</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СодержащиеВВакансииСферыСлова</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6fa88801-d1f0-47b7-9f3b-9335ed92986c">
+    <producedTypes>
+      <objectType typeId="feeb89be-9d16-4189-81b7-c1d529b6f196" valueTypeId="f2139455-e603-4705-a972-3f4b11256a17"/>
+      <rowType typeId="17427787-dd1b-4b14-b82e-390b67f10207" valueTypeId="91b0cfe3-109d-43f3-aa9c-07520344cc86"/>
+    </producedTypes>
+    <name>СловаИсключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слова исключения</value>
+    </synonym>
+    <attributes uuid="69a78d36-bab1-49d1-b71f-b1ab3181842b">
+      <name>СловоИсключение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Слово исключение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СловаИсключения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

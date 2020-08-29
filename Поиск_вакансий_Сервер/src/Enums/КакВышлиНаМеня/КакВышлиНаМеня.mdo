@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80f8776f-fb0e-460b-929e-cd399045d4c6">
+  <producedTypes>
+    <refType typeId="cd81be3e-f3fc-4c20-a0f4-7ea9ca8bc72d" valueTypeId="f0002af5-9b60-4720-b028-2a385b6406ab"/>
+    <listType typeId="748888af-5fb4-4341-a9f3-c8fbec34e946" valueTypeId="762d0f17-b385-4333-9f72-ca5026466363"/>
+    <managerType typeId="f09a419c-2e72-4a38-ac37-5f79dbfead26" valueTypeId="9d80344c-c688-4d8d-bbf2-eacea99f7a93"/>
+  </producedTypes>
+  <name>КакВышлиНаМеня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Как вышли на меня</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="182db739-365b-4474-925a-6950ab2b7c8b">
+    <name>hh</name>
+    <synonym>
+      <key>ru</key>
+      <value>hh.ru</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60108894-5aab-4930-8de7-f15fcc32214d">
+    <name>Почта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d92117a-d62b-40ed-9689-b3b59e0321b5">
+    <name>superjob</name>
+    <synonym>
+      <key>ru</key>
+      <value>superjob.ru</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

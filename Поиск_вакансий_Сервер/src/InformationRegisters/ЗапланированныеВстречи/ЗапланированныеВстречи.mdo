@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cc186b3-a511-49cd-ab48-0ede5b65f063">
+  <producedTypes>
+    <selectionType typeId="c8e87c25-fc17-41d4-8930-c3b1114d1975" valueTypeId="0580b6d3-7277-4dbf-b593-fadb775f9d89"/>
+    <listType typeId="89e0ca60-0671-43a5-8b94-53c2093bee31" valueTypeId="7a9daccc-c915-405f-a25e-5697a678dca2"/>
+    <managerType typeId="59e43ee4-69dc-4da6-8def-b3e04154e6db" valueTypeId="99d8a448-494f-4465-bf9a-40eb3e69dad1"/>
+    <recordSetType typeId="f6cddd77-22df-45fc-850a-9955cdac4b61" valueTypeId="4bab5b8a-e31f-412e-8522-64f88656a209"/>
+    <recordKeyType typeId="b54b33be-5517-4066-afbe-d18aed7b6b24" valueTypeId="d9a9fad2-f26e-42af-a13b-d980deb227f4"/>
+    <recordType typeId="a640a6c6-3225-499e-92c5-cdafff6e396f" valueTypeId="624f857a-8977-4fb8-bd24-fb30cc1d2d82"/>
+    <recordManagerType typeId="f3d9862f-cd31-45ba-94e9-e41191b5c1d5" valueTypeId="8534ce72-898a-4744-8856-8b58440510bc"/>
+  </producedTypes>
+  <name>ЗапланированныеВстречи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запланированные встречи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ЗапланированныеВстречи.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="62bfeb0a-058b-40af-91cf-eef25497d2ca">
+    <name>ДатаИВремяСобеседования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время собеседования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="91ef6763-c542-4cd1-b711-a20058faefe2">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="ddccbbce-ce16-4d6c-a37d-0f000ea0e6ea">
+    <name>Схема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="c0fc99c0-1779-499c-9586-86289b0639ad">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусОтклика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8cd785b5-a3af-45e9-a269-052f869bae05">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

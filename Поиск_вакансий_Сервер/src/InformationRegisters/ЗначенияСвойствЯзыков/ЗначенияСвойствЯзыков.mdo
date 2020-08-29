@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ede1cd84-48da-4faf-b3f4-ce7f2da8f667">
+  <producedTypes>
+    <selectionType typeId="e88bcb4c-7c9e-4ca3-b42c-0de0411a65ee" valueTypeId="67c78e4d-8169-4661-8538-79d819858dda"/>
+    <listType typeId="90e6c5d0-2896-4c83-a06e-ac18515a2983" valueTypeId="fb4b66aa-bb82-482f-b70a-44d4b67b9403"/>
+    <managerType typeId="0eae926f-f9e5-4f11-a6c0-8eacf84d6dfc" valueTypeId="aeccd518-988f-431f-812f-c1b27c21ccc0"/>
+    <recordSetType typeId="d8766034-0a60-41e0-840f-491cd27606b3" valueTypeId="a9b623ce-c512-42ee-b104-46a12865870b"/>
+    <recordKeyType typeId="63e1be5e-7b66-4944-a872-6b520b8d89c2" valueTypeId="b909bbc4-a421-4228-94b5-da7db07be5a3"/>
+    <recordType typeId="427c97e9-9096-40fd-9c54-6bc01200e35a" valueTypeId="347a1ee9-2f7e-4ae7-b385-1243d744c26a"/>
+    <recordManagerType typeId="73c0bfd6-f3de-4739-b347-85c0633cb22b" valueTypeId="2baed878-023b-4bfb-8a31-7bcc1d944cca"/>
+  </producedTypes>
+  <name>ЗначенияСвойствЯзыков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения свойств языков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f6ca65ff-10c7-406b-9cad-fcf4fc0f59d5">
+    <name>ЗначениеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение свойства</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПлатформыЯзыковПрограммирования</types>
+      <types>CatalogRef.КлючевыеСлова</types>
+      <types>CatalogRef.ЗначенияСвойств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>InformationRegister.ЗначенияСвойствЯзыков.Dimension.СвойстваОбъектов</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="36168c9d-3b47-4672-8af6-8f571d127f4f">
+    <name>ЯзыкПрограммирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Язык программирования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЯзыкиПрограммирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="caf01f4c-e321-4cad-825e-34ebb3c5f2ec">
+    <name>СвойстваОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства объектов</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

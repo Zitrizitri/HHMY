@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82616cb8-34c2-4357-be48-2e02e54dbd21">
+  <producedTypes>
+    <objectType typeId="33ea401f-d664-429a-8ec3-c3b70faea783" valueTypeId="51d4185c-61d2-4435-99bd-24a655dc0944"/>
+    <refType typeId="c2b8709d-e52b-4b48-a9c1-a7fbad56fade" valueTypeId="8b06538f-8116-4183-a8f4-4dde675886f5"/>
+    <selectionType typeId="04b42643-d677-45ae-b986-b5ea5b3151d1" valueTypeId="b705b384-6693-4d7e-94c3-cd33eb1e25b2"/>
+    <listType typeId="4aaea035-96ee-4d6d-adaa-f101bf97cd67" valueTypeId="3fe98be4-3ca4-4997-a8ff-f45783372d3b"/>
+    <managerType typeId="140eb3d7-5fd6-4399-b093-dc3694b83d11" valueTypeId="a24a680e-6ed7-49a4-909b-046db3478100"/>
+    <containerType typeId="7edfcfcd-0dac-4896-aff7-a9bba7ede955" valueTypeId="ca4b4019-c77f-4109-8000-29dd8c1fad98"/>
+  </producedTypes>
+  <name>СвойстваОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначенияСвойств</characteristicExtValues>
+  <type>
+    <types>EnumRef.ПлатформыЯзыковПрограммирования</types>
+    <types>CatalogRef.ЗначенияСвойств</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

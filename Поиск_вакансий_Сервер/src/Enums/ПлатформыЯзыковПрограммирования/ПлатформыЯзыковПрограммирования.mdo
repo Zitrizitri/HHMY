@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28eaab8d-60b4-4c54-93fd-64681de1b13e">
+  <producedTypes>
+    <refType typeId="3e2a715f-8c85-4302-95aa-23d976ec38f5" valueTypeId="67d8b6d3-201a-4360-88f8-02b37932a7da"/>
+    <listType typeId="fdf8114b-06f3-4eed-9de7-207cb560f5fc" valueTypeId="d1d24480-6e37-4f41-a5c2-e10b8674ee3d"/>
+    <managerType typeId="33e0e8f8-d4b9-4292-af94-6a483936c07c" valueTypeId="a46664e9-30ac-48de-b8f9-9f2e7b0f3037"/>
+  </producedTypes>
+  <name>ПлатформыЯзыковПрограммирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платформы языков программирования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eef2e2a4-cbd8-4c43-babf-d189e4df7f5b">
+    <name>IOS</name>
+    <synonym>
+      <key>ru</key>
+      <value>IOS</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="645ab89f-14e6-46e6-ad9d-c92d6a74c11e">
+    <name>Android</name>
+    <synonym>
+      <key>ru</key>
+      <value>Android</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

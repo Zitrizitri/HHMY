@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9927bcd0-e1f8-4a77-9591-64aa1d6ac3de">
+  <producedTypes>
+    <objectType typeId="10502ea7-5853-41a9-a8e1-797d46f49594" valueTypeId="0bfe9a1a-0624-4242-b04b-cab63e2d8cc4"/>
+    <refType typeId="57caa446-8eb9-4c9d-8a33-50eea83661ec" valueTypeId="db7a7ee0-33f4-46f7-9db2-76f526ae7d08"/>
+    <selectionType typeId="d2241a16-c23b-4e3d-bbff-c8dc5a07bbe5" valueTypeId="73e264dc-73ac-460f-a44c-ec731171fb6b"/>
+    <listType typeId="007437cd-00f9-42d4-8c89-5509e3a30cca" valueTypeId="2de77276-65b3-473e-9e40-b9e8fac04fa4"/>
+    <managerType typeId="3ac220ee-b3df-4345-b735-65f9e7e674f7" valueTypeId="9df6bd17-d79e-40ae-a87f-2ebbe28bf218"/>
+  </producedTypes>
+  <name>КлючевыеСлова</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключевые слова</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КлючевыеСлова.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КлючевыеСлова.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="6ea345ce-8a54-48c6-abb3-fbc4aaf7a682">
+      <name>Developer1С</name>
+      <description>Developer 1С</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="11b2d709-5cfe-4b00-962e-05f5e663054e">
+      <name>Архитектор1С</name>
+      <description>Архитектор 1С</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="833bf09b-36eb-40e3-b1cb-e0f479fd981c">
+      <name>Программист1С</name>
+      <description>Программист 1С</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="c535f7f7-4121-4ce3-a0c1-fbf4bad0968c">
+      <name>Разработчик1С</name>
+      <description>Разработчик 1С</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e7bc480f-e4a6-40ef-b5cb-fe9f539a6513">
+    <name>ОтноситьсяКЯзыку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Относиться к языку</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЯзыкиПрограммирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

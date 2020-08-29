@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="695db750-1150-4786-99fe-9dfee4fd2ce2">
+  <name>АгрегаторВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Агрегатор вакансий 1.8.1 beta</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="311472fb-8ae9-4026-9c28-dfb019f02e17"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="557a1611-ed27-4ef6-92d5-ac52bb4e0335"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="3a2a46ad-a9e1-4567-a46b-a7bb7af98436"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="5c6ad294-c63d-489c-b345-7162f7ce2717"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="d652a996-79a3-4040-a36f-c80febd44f5e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="254c828a-8290-45bc-b61f-64da843f0e71"/>
+  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <logo/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="c2a5c903-06dd-4d59-9f64-bf609c53f883">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.АналитикаВакансий</subsystems>
+  <subsystems>Subsystem.ПоискВакансии</subsystems>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ВстроенноеРабочееМесто</roles>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonAttributes>CommonAttribute.НомерHH</commonAttributes>
+  <commonAttributes>CommonAttribute.ДатаСоздания</commonAttributes>
+  <commonAttributes>CommonAttribute.СайтВладелец</commonAttributes>
+  <commonAttributes>CommonAttribute.ДатаАрхивацииВакансии</commonAttributes>
+  <commandGroups>CommandGroup.Справочники</commandGroups>
+  <commandGroups>CommandGroup.Документы</commandGroups>
+  <commandGroups>CommandGroup.РегистрыСведений</commandGroups>
+  <catalogs>Catalog.Работодатели</catalogs>
+  <catalogs>Catalog.Города</catalogs>
+  <catalogs>Catalog.СтанцииМетро</catalogs>
+  <catalogs>Catalog.ЛинииМетро</catalogs>
+  <catalogs>Catalog.ЯзыкиПрограммирования</catalogs>
+  <catalogs>Catalog.ЗначенияСвойств</catalogs>
+  <catalogs>Catalog.КлючевыеСлова</catalogs>
+  <catalogs>Catalog.СодержащиеВВакансииСферыСлова</catalogs>
+  <catalogs>Catalog.Специализации</catalogs>
+  <catalogs>Catalog.СловаИсключения</catalogs>
+  <catalogs>Catalog.МоиРезюме</catalogs>
+  <catalogs>Catalog.КлючевыеНавыки</catalogs>
+  <documents>Document.Вакансии</documents>
+  <documents>Document.Отклики</documents>
+  <documentJournals>DocumentJournal.ЖурналВакансий</documentJournals>
+  <documentJournals>DocumentJournal.ЖурналУдаленнойРаботы</documentJournals>
+  <enums>Enum.СайтыВладельцы</enums>
+  <enums>Enum.ПлатформыЯзыковПрограммирования</enums>
+  <enums>Enum.ПриоритетыОткликов</enums>
+  <enums>Enum.СтатусОтклика</enums>
+  <enums>Enum.КакВышлиНаМеня</enums>
+  <enums>Enum.ГрафикРаботы</enums>
+  <reports>Report.ТребуютсяСтажеры</reports>
+  <dataProcessors>DataProcessor.АктуализацияСпискаВакансий</dataProcessors>
+  <informationRegisters>InformationRegister.ЧастотаОбновленияВакансий</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияСвойствЯзыков</informationRegisters>
+  <informationRegisters>InformationRegister.ВакансияИЯзыкиПрограммирования</informationRegisters>
+  <informationRegisters>InformationRegister.ЗапланированныеВстречи</informationRegisters>
+  <informationRegisters>InformationRegister.ВакансияИКлючевыеНавыки</informationRegisters>
+  <informationRegisters>InformationRegister.ВакансияИСтанцииМетро</informationRegisters>
+  <informationRegisters>InformationRegister.ВакансияНомерКомпанияВакансии</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваОбъектов</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30bb3b49-bb36-43e1-8aa2-85fda934a7d7">
+  <producedTypes>
+    <objectType typeId="a605178c-ebf6-45cd-8de1-54ae53715558" valueTypeId="4ec8c364-ca8e-43bb-a4b8-abf2a5632522"/>
+    <refType typeId="5367a64f-95fc-4de0-9387-88f8e91e788f" valueTypeId="d3bddd8a-63f9-47fd-9bf6-82e5f5e8ba29"/>
+    <selectionType typeId="e61faf9f-33c4-4728-9ae2-975b20f12475" valueTypeId="6c17ce98-2331-4ce7-b072-3c6c99759c3d"/>
+    <listType typeId="ba0a7dd3-1d2a-4be9-a819-2bbe2bc27e4b" valueTypeId="38989461-6f6a-4d48-9334-a194c99719b1"/>
+    <managerType typeId="9b247069-3a1e-44a1-98fe-dcd9db017870" valueTypeId="cd64279d-2247-4c88-8f50-f2ba2eedd676"/>
+  </producedTypes>
+  <name>СодержащиеВВакансииСферыСлова</name>
+  <synonym>
+    <key>ru</key>
+    <value>Содержащие в вакансии сферы слова</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СодержащиеВВакансииСферыСлова.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СодержащиеВВакансииСферыСлова.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Специализации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

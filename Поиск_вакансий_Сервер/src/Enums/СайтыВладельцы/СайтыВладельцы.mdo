@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e34a5b1-1b35-443d-b4d8-dc9252fe4ebb">
+  <producedTypes>
+    <refType typeId="530e8070-6e4e-4f05-9221-ad4fffdf6623" valueTypeId="dac4cf80-b776-44fb-86d1-41515aa9c1c8"/>
+    <listType typeId="c3d26948-cb43-4f79-b0c0-bc0ee3f04d29" valueTypeId="2fda2c0a-e2d1-4874-99a1-bc970b04cb06"/>
+    <managerType typeId="881a9a61-83fd-4a42-86f3-a76f7b724bff" valueTypeId="b222483e-52a8-4575-b588-e18e32bd3759"/>
+  </producedTypes>
+  <name>СайтыВладельцы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сайты владельцы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f25b6da7-b992-4923-b407-22596480a7be">
+    <name>HHRU</name>
+    <synonym>
+      <key>ru</key>
+      <value>hh.ru</value>
+    </synonym>
+    <comment>uperjob.ru</comment>
+  </enumValues>
+  <enumValues uuid="e3b90f5e-0b81-41f3-b945-47cdd2f13390">
+    <name>SUPERJOBRU</name>
+    <synonym>
+      <key>ru</key>
+      <value>superjob.ru</value>
+    </synonym>
+    <comment>superjob.ru</comment>
+  </enumValues>
+</mdclass:Enum>
