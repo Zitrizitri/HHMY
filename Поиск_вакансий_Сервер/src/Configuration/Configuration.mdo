@@ -58,6 +58,7 @@
   <catalogs>Catalog.СловаИсключения</catalogs>
   <catalogs>Catalog.МоиРезюме</catalogs>
   <catalogs>Catalog.КлючевыеНавыки</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <documents>Document.Вакансии</documents>
   <documents>Document.Отклики</documents>
   <documentJournals>DocumentJournal.ЖурналВакансий</documentJournals>
